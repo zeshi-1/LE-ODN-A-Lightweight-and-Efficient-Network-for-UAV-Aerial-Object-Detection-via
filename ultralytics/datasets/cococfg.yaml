@@ -1,0 +1,27 @@
+cfgmodel:
+  # train.py
+  - ultralytics/models/v8/1-yolov8s.yaml
+  - ultralytics/models/v8/2-yolov8s-AKConv.yaml
+  - ultralytics/models/v8/3-yolov8s-AKConv-SPPFLSKA.yaml
+  - ultralytics/models/v8/4-yolov8s-AKConv-SPPFLSKA-Bi-SCDown-FPN.yaml
+  - ultralytics/models/v8/yolov8_
+  - ultralytics/models/v8/yolov8_
+  - ultralytics/models/v8/yolov8_
+  - ultralytics/models/v8/yolov8_
+  - ultralytics/models/v8/yolov8_
+  - ultralytics/models/v8/yolov8_
+  - ultralytics/models/v8/yolov8_
+
+cfgexp:
+  # val.py
+  - runs/train/exp/weights/best.pt
+  - runs/train/exp2/weights/best.pt
+  - runs/train/exp3/weights/best.pt
+  - runs/train/exp4/weights/best.pt
+  - runs/train/ex/weights/best.pt
+  - runs/train/ex/weights/best.pt
+  - runs/train/ex/weights/best.pt
+  - runs/train/ex/weights/best.pt
+  - runs/train/ex/weights/best.pt
+  - runs/train/ex/weights/best.pt
+  - runs/train/ex/weights/best.pt
